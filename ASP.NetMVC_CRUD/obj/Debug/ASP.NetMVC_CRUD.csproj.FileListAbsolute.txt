@@ -64,7 +64,6 @@ D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\System.Web.Webpages.Deploymen
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\System.Web.Webpages.Razor.xml
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\System.Web.Helpers.xml
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\System.Web.Mvc.xml
-D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.csprojResolveAssemblyReference.cache
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.csproj.CoreCompileInputs.cache
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.csproj.CopyComplete
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.dll
@@ -73,3 +72,4 @@ D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.dll
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.SqlServer.dll
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.xml
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.SqlServer.xml
+D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.csprojResolveAssemblyReference.cache
