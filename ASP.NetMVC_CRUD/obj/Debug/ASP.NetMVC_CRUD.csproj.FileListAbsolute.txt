@@ -69,3 +69,7 @@ D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.csproj.
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.csproj.CopyComplete
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.dll
 D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\obj\Debug\ASP.NetMVC_CRUD.pdb
+D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.dll
+D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.SqlServer.dll
+D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.xml
+D:\ASP.Net MVC\ASP.NetMVC_CRUD\ASP.NetMVC_CRUD\bin\EntityFramework.SqlServer.xml
