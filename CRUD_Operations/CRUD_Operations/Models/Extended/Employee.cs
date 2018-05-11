@@ -7,8 +7,9 @@ using System.Web;
 namespace CRUD_Operations.Models
 {
     [MetadataType (typeof(EmployeeMetadata))]
-    public class Employee
+    public partial class Employee
     {
+
     }
 
     public class EmployeeMetadata

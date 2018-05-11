@@ -70,7 +70,36 @@ namespace CRUD_Operations.Controllers
         [HttpGet]
         public ActionResult Delete (int id)
         {
+            using (MyDatabaseEntities dc =new MyDatabaseEntities())
+            {
+                var v = dc.EmployeesTables.Where(a => a.EmployeeID == id).FirstOrDefault();
+                if (v != null)
+                {
+                    return View(v);
+                }
+                else
+                {
+                    return HttpNotFound();
+                }
+            }
+        }
 
+        [HttpPost]
+        [ActionName ("Delete")]
+        public ActionResult DeleteEmployee (int id)
+        {
+            bool status = false;
+            using (MyDatabaseEntities dc = new MyDatabaseEntities())
+            {
+                var v = dc.EmployeesTables.Where(a => a.EmployeeID == id).FirstOrDefault();
+                if (v != null)
+                {
+                    dc.EmployeesTables.Remove(v);
+                    dc.SaveChanges();
+                    status = true;
+                }
+            }
+            return new JsonResult { Data = new { status = status } };
         }
     }
 }
