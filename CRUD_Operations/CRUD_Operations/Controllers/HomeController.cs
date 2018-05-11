@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CRUD_Operations.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,15 @@ namespace CRUD_Operations.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult GetEmployees()
+        {
+            using (MyDatabaseEntities dc = new MyDatabaseEntities())
+            {
+                var employees = dc.EmployeesTables.OrderBy(a => a.FirstName).ToList();
+                return Json(new { data = employees }, JsonRequestBehavior.AllowGet);
+            }
         }
     }
 }
