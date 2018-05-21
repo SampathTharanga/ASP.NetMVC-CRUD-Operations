@@ -44,7 +44,7 @@ namespace CRUD_Operations.Controllers
                 {
                     if (emp.EmployeeID > 0)
                     {
-                        //Save
+                        //Edit
                         var v = dc.EmployeesTables.Where(a => a.EmployeeID == emp.EmployeeID).FirstOrDefault();
                         if (v != null)
                         {
@@ -57,7 +57,7 @@ namespace CRUD_Operations.Controllers
                     }
                     else
                     {
-                        //Edit
+                        //Save
                         dc.EmployeesTables.Add(emp);
                     }
                     dc.SaveChanges();
