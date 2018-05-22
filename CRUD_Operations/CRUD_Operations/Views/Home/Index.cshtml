@@ -4,7 +4,10 @@
 }
 
 <!DOCTYPE html>
-
+<!--
+REFERENCES:
+    http://www.dotnetawesome.com/2016/12/crud-operation-using-datatables-aspnet-mvc.html
+-->
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -14,7 +17,7 @@
     <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css" rel="stylesheet" />
     <link href="~/Content/themes/base/jquery-ui.min.css" rel="stylesheet" />
     <style>
-        span.field-validation-error{
+        span.field-validation-error {
             color: red;
         }
     </style>
@@ -49,7 +52,7 @@
         $(document).ready(function () {
             var oTable = $('#myTable').DataTable({
                 "ajax": {
-                    "url": "/home/GetEmployees",
+                    "url": '/home/GetEmployees',
                     "type": "get",
                     "datatype": "json"
                 },
@@ -102,7 +105,7 @@
                     var url = $('#popupForm')[0].action;
                     $.ajax({
                         type: "POST",
-                        url:        url,
+                        url: url,
                         data: $('#popupForm').serialize(),
                         success: function (data) {
                             if (data.status) {
